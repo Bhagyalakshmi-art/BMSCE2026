@@ -1,0 +1,3 @@
+sys.argv[0] → program name
+sys.argv[1] → first argument
+sys.argv[2] → second argument
