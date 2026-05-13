@@ -6,7 +6,7 @@ numbers=[int(value) for value in sys.argv[1:]]
 #     numbers.append(float(sys.argv[i]))
         
 print("Numbers before sorting:\n",numbers)
-pt.parition(numbers)
+pt.parition_array(numbers,0,len(numbers))
 print("Numbers before sorting:\n",numbers)
 
 for i in range(len(numbers)):
